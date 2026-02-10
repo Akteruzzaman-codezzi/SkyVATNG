@@ -14,7 +14,8 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 Folder Structure Example:
 
-
+---
+##
 /src
 ├── app
 │   ├── core
@@ -72,3 +73,5 @@ Folder Structure Example:
 ├── styles
 ├── main.ts
 └── index.html
+###
+---
