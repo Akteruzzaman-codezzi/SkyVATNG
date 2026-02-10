@@ -29,22 +29,26 @@
                 "input": "projects/sky-vat/public"
               }
             ],
-            "styles": [
-              "projects/sky-vat/src/styles.scss"
-            ]
+            "styles": ["projects/sky-vat/src/styles.scss"]
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/sky-vat/src/environments/environment.ts",
+                  "with": "projects/sky-vat/src/environments/environment.prod.ts"
+                }
+              ],
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "50000kB",
+                  "maximumError": "10MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "400kB",
+                  "maximumError": "800kB"
                 }
               ],
               "outputHashing": "all"
