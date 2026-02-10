@@ -1,0 +1,32 @@
+
+
+    nz-header,
+    nz-footer {
+      text-align: center;
+      background: rgb(187, 187, 187);
+      color: black;
+    }
+
+    nz-header {
+      height: 64px;
+      padding-inline: 48px;
+      line-height: 64px;
+      width: 100%;
+    }
+
+    nz-sider {
+     background: whitesmoke;
+      color: black;
+      height: 100vh;
+    }
+
+    nz-content {
+      background: #ffffff;
+      color: #fff;
+    }
+
+    :host > nz-layout {
+      width: calc(100%);
+      max-width: calc(100%);
+      overflow: hidden;
+    }

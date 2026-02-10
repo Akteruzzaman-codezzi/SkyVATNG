@@ -27,9 +27,23 @@
               {
                 "glob": "**/*",
                 "input": "projects/sky-vat/public"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
               }
             ],
-            "styles": ["projects/sky-vat/src/styles.scss"]
+            "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "./node_modules/ngx-toastr/toastr.css",
+              "projects/sky-vat/src/styles.scss"
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
