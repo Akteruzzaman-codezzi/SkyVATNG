@@ -24,8 +24,15 @@ export class Auth extends Base {
     }
   }
 
+  public getToken(): string | null {
+    return localStorage.getItem(this.tokenKey);
+  }
+
+  public isAuthenticated(): boolean {
+    return !!this.getToken();
+  }
+
   logout(): void {
-    localStorage.setItem('language', 'en');
     localStorage.removeItem(this.tokenKey);
     localStorage.removeItem(this.menuTokenKey);
     localStorage.removeItem(this.decodedObjKey);

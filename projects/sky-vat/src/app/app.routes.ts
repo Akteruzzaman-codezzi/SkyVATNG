@@ -15,10 +15,16 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'dashboard',
-    loadComponent: () =>
-      import('./feature/components/dashboard/dashboard').then((m) => m.Dashboard),
+    path: 'client',
+    loadComponent: () => import('./layout/layout/layout').then((m) => m.Layout),
     canActivate: [authGuard],
+    children: [
+      {
+        path: 'dashboard',
+        loadComponent: () =>
+          import('./feature/components/dashboard/dashboard').then((m) => m.Dashboard),
+      },
+    ],
   },
   {
     path: 'forgot-password',
