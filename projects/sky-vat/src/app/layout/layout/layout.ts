@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { Base } from '../../shared/components/base/base';
 
 @Component({
   selector: 'app-layout',
@@ -11,4 +12,14 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
   templateUrl: './layout.html',
   styleUrl: './layout.scss',
 })
-export class Layout {}
+export class Layout extends Base implements OnInit {
+  pageName = '';
+  constructor() {
+    super();
+  }
+  ngOnInit(): void {
+    this.activeModule.currentPageName.subscribe((pageName) => {
+      this.pageName = pageName;
+    });
+  }
+}

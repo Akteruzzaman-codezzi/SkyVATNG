@@ -8,6 +8,10 @@ import { Base } from '../../../shared/components/base/base';
   styleUrl: './dashboard.scss',
 })
 export class Dashboard extends Base {
-  
+  constructor() {  
+    super();
+    this.setPageName('Dashboard');
+   }
+
 
 }
