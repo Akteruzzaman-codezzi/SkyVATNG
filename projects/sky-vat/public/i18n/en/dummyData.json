@@ -1,0 +1,1043 @@
+{
+  "titles": {
+    "gov": "GOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESH",
+    "nbr": "NATIONAL BOARD OF REVENUE",
+    "form": "VALUE ADDED TAX RETURN FORM (Mushak-9.1)",
+    "rule": "[Rule 47(1)]"
+  },
+  "developer": {
+    "prefix": "developed by: ",
+    "name": "SkyTech Global Ltd."
+  },
+  "sections": {
+    "s1": "SECTION - 1: TAXPAYER'S INFORMATION",
+    "s2": "SECTION - 2: RETURN SUBMISSION DATA",
+    "s3": "SECTION - 3: SUPPLY - OUTPUT TAX",
+    "s4": "SECTION - 4: PURCHASE - INPUT TAX",
+    "s5": "SECTION - 5: INCREASING ADJUSTMENTS (VAT)",
+    "s6": "SECTION - 6: DECREASING ADJUSTMENTS (VAT)",
+    "s7": "SECTION - 7: NET TAX CALCULATION",
+    "s8": "SECTION - 8: ADJUSTMENT FOR OLD ACCOUNT CURRENT BALANCE",
+    "s9": "SECTION - 9: ACCOUNTS CODE WISE PAYMENT SCHEDULE (TREASURY DEPOSIT)",
+    "s10": "SECTION - 10: CLOSING BALANCE",
+    "s11": "SECTION - 11: REFUND",
+    "s12": "SECTION - 12: DECLARATION"
+  },
+  "labels": {
+    "bin": "1. BIN",
+    "name": "2. Name",
+    "address": "3. Address",
+    "nature": "4. Nature",
+    "activity": "5. Activity",
+    "period": "1. Tax Period",
+    "total_output": "Total Sales Value & Total Payable Taxes",
+    "total_input": "Total Input Tax Credit",
+    "decl_text": "I hereby declare that all information provided in this Return Form are complete, true & accurate. In case of any untrue/incomplete statement, I may be subjected topenal action under The Value Added Tax and Supplementary Duty Act, 2012 or any other applicable Act prevailing at present.",
+    "tax_period": "1. Tax Period",
+    "return_type": "2. Type of Return\n[Please select your desired option]",
+    "any_activities": "3. Any activities in this Tax Period?",
+    "yes": "Yes",
+    "no": "No",
+    "activity_note": "[If Selected \"No\" Please Fill Only Section I, II & X]",
+    "sub_date": "4. Date of Submission",
+    "purchase_instruction": [
+      "1) If all the products/services you supply are standard rated, fill up note 10-20.",
+      "2) All the products/services you supply are not standard rated or input tax credit not taken within stipulated time period under section 46, fill up note 21-22.",
+      "3) If the products/services you supply consist of both standard rated and non-standard rated, then fill up note 10-20 for the raw materials that were used to produce/supply standard rated goods/services and fill up note 21-22 for the raw materials that were used to produce/supply non-standard rated goods/services and show the value proportionately in note 10-22 as applicable."
+    ],
+    "nature_purchase": "Nature of Purchase",
+    "local_purchase": "Local Purchase",
+    "import": "Import",
+    "from_turnover": "From Turnover Units",
+    "from_unregistered": "From Unregistered Entities",
+    "total_input_credit": "Total Input Tax Credit",
+    "total_inc_adj": "Total Increasing Adjustment",
+    "total_dec_adj": "Total Decreasing Adjustment",
+    "other_adj_specify": "Any Other Adjustments (please specify below)",
+    "interest_refund": "I am interested to get refund of my Closing Balance",
+    "req_refund_vat": "Requested Amount for Refund (VAT)",
+    "req_refund_sd": "Requested Amount for Refund (SD)",
+    "declaration_text": "I hereby declare that all information provided in this Return Form are complete, true & accurate. In case of any untrue/incomplete statement, I may be subjected to penal action under The Value Added Tax and Supplementary Duty Act, 2012 or any other applicable Act prevailing at present.",
+    "designation": "Designation",
+    "mobile": "Mobile Number",
+    "nid_passport": "National ID/Passport Number",
+    "email": "Email",
+    "signature": "Signature [Not required for electronic submission]"
+  },
+  "return_options": [
+    "A) Main/Original Return (Section 64)",
+    "B) Late Return (section 65)",
+    "C) Amend Return (section 66)",
+    "D) Full or Additional or Alternative Return (Section 67)"
+  ],
+  "notes": {
+    "note1": "Zero rate-Direct Export",
+    "note2": "Zero rate-Deemed Export",
+    "note3": "Exempted Goods/Service",
+    "note4": "Standard Rated Goods/Service",
+    "note5": "Goods Based on MRP",
+    "note6": "Goods/Service Based on Specific VAT",
+    "note7": "Goods/Service Other than Standard Rate",
+    "note8": "Retail/Whole Sale/Trade Based Supply",
+    "note9": "Total Sales Value & Total Payable Taxes",
+    "note10": "Zero Rated Goods/Service",
+    "note11": "Exempted Goods/Service",
+    "note12": "Standard Rated Goods/Service",
+    "note13": "Goods/Service Other than Standard Rate",
+    "note14": "Goods/Service Based on Specific VAT",
+    "note15": "Goods/Service Not Admissible for Credit (Local)",
+    "note16": "Goods/Service Not Admissible for Credit (Taxpayers selling only Exempted)",
+    "note23": "Total Input Tax Credit",
+    "note24": "Due to VAT Deducted at Source by the supply",
+    "note25": "Payment Not Made Through Banking Channel",
+    "note26": "Issuance of Debit Note",
+    "note27": "Any Other Adjustments",
+    "note27_sub": "VAT on House Rent",
+    "note29": "Due to VAT Deducted at Source from the supplies delivered",
+    "note30": "Advance Tax Paid at Import Stage",
+    "note31": "Issuance of Credit Note",
+    "note32": "Any Other Adjustments",
+    "note33": "Total Decreasing Adjustment",
+    "note34": "Net Payable VAT for the Tax Period (Section- 45) (9C-23B+28-33)",
+    "note35": "Net Payable VAT for the Tax Period after Adjustment with Closing Balance and balance of form 18.6 [34-(52+56)]",
+    "note36": "Net Payable Supplementary Duty for the Tax Period (Before adjustment with Closing Balance) [9B+38-(39+40)] ",
+    "note37": "Net Payable Supplementary Duty for the Tax Period after Adjusted with Closing Balance and balance of form 18.6\n[36-(53+57)]",
+    "note38": "Supplementary Duty Against Issuance of Debit Note",
+    "note39": "Supplementary Duty Against Issuance of Credit Note",
+    "note40": "Supplementary Duty Paid on Inputs Against Exports",
+    "note41": "Interest on Overdue VAT (Based on note 35)",
+    "note42": "Interest on Overdue SD (Based on note 37)",
+    "note43": "Fine/Penalty for Non-submission of Return",
+    "note44": "Other Fine/Penalty/Interest",
+    "note45": "Payable Excise Duty",
+    "note46": "Payable Development Surcharge",
+    "note47": "Payable ICT Development Surcharge",
+    "note48": "Payable Health Care Surcharge",
+    "note49": "Payable Environmental Protection Surcharge",
+    "note50": "Net payable VAT for treasury deposit (35+41+43+44)",
+    "note51": "Net payable SD for treasury deposit (37+42)",
+    "note52": "Closing Balance of Last Tax Period (VAT)",
+    "note53": "Closing Balance of Last Tax Period (SD)",
+    "note54": "Remaining Balance (VAT) from Mushak-18.6,[Rule 118(5)]",
+    "note55": "Remaining Balance (SD) from Mushak-18.6,[Rule 118(5)]",
+    "note56": "Decreasing Adjustment for Note 54 (up to 30% of Note 34)",
+    "note57": "Decreasing Adjustment for Note 55 (up to 30% of Note 36)",
+    "note58": "VAT Deposit for the Current Tax Period",
+    "note59": "SD Deposit for the Current Tax Period",
+    "note60": "Excise Duty",
+    "note61": "Development Surcharge",
+    "note62": "ICT Development Surcharge",
+    "note63": "Health Care Surcharge",
+    "note64": "Environmental Protection Surcharge",
+    "note65": "Closing Balance (VAT) [58 - (50 + 67) + The refund amount not approved]",
+    "note66": "Closing Balance (SD) [59 - (51 + 68) + The refund amount not approved]"
+  },
+  "headers": {
+    "nature_supply": "Nature of Supply",
+    "note": "Note",
+    "value": "Value (a)",
+    "sd": "SD (b)",
+    "vat": "VAT (c)",
+    "sub_form": "Sub form",
+    "adj_details": "Adjustment Details",
+    "vat_amount": "VAT Amount",
+    "items": "Items",
+    "amount": "Amount",
+    "acc_code": "Account Code"
+  },
+  "mushak_2_3": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "commissionerate": "Customs, Excise and VAT Commissionerate, Dhaka (South)",
+      "division": "Kotowali Division",
+      "form": "Value Added Tax Registration Certificate",
+      "rule": "[Value Added Tax and Supplementary Duty Act, 2012 (Act No. 47 of 2012)]",
+      "m_name": "Mushak-2.3"
+    },
+    "info": {
+      "name_of_entity": "Name of the Entity",
+      "trading_brand_name": "Trading Brand Name",
+      "old_bin": "Old BIN",
+      "etin": "e-TIN",
+      "address": "Address",
+      "issue_date": "Issue Date",
+      "effective_date": "Effective Date",
+      "type_of_ownership": "Type of Ownership",
+      "major_area": "Major Area of Economic Activity"
+    },
+    "footer": {
+      "note": "This is a system generated certificate and doesn't require any signature."
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_4_3": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Input-Output Coefficient Declaration",
+      "rule": "(See Rule 21)",
+      "m_name": "Mushak-4.3"
+    },
+    "info": {
+      "comp_name": "Name of the Institution:",
+      "address": "Address:",
+      "bin": "BIN:",
+      "sub_date": "Date of Submission:",
+      "first_supply": "Date of first supply as per declared coefficient:"
+    },
+    "headers": {
+      "sl": "SL No (1)",
+      "hs_code": "HS Code (2)",
+      "item_desc": "Name & Description of Goods/Service (3)",
+      "unit": "Unit of Supply (4)",
+      "raw_material": "Description (5)",
+      "buy_price": "Purchase Price (6)",
+      "qty_w": "Quantity Incl. Wastage (7)",
+      "qty_wo": "Quantity of Wastage (8)",
+      "wastage_p": "Percentage (9)",
+      "va_sector": "Value Addition Sector (10)",
+      "va_value": "Value (11)",
+      "remarks": "Remarks (12)"
+    },
+    "footer": {
+      "auth_person_title": "Name of Authorized Person of the Institution:",
+      "designation": "Designation:",
+      "signature": "Signature:",
+      "seal": "Seal:",
+      "special_note_title": "Special Notes:",
+      "notes": [
+        "Declaration must be submitted online or to the divisional office 15 days before first supply.",
+        "New declaration is required if the price of goods or raw materials changes by more than 7.5%.",
+        "Bill of Entry or Challan must be attached as proof of raw material purchase."
+      ]
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_1": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Purchase Account Book",
+      "rule": "[See Rule 40(1)(a) and 41(a)]",
+      "m_name": "Mushak-6.1",
+      "sub_title": "Purchase of Goods/Service Materials"
+    },
+    "info": {
+      "comp_name": "Name of the Institution:",
+      "address": "Address:",
+      "bin": "Business Identification Number (BIN):"
+    },
+    "headers": {
+      "sl": "SL No",
+      "date": "Date",
+      "opening_stock": "Opening Balance of Raw Materials",
+      "qty": "Quantity (Unit)",
+      "value": "Value (Excl. all taxes)",
+      "invoice_info": "Invoice/Bill of Entry No & Date",
+      "seller_info": "Seller/Supplier Information",
+      "item_desc": "Description",
+      "purchase_info": "Purchased Raw Materials",
+      "vat_info": "Total Raw Materials",
+      "usage_info": "Usage of Materials",
+      "closing_stock": "Closing Balance of Materials",
+      "remarks": "Remarks"
+    },
+    "sub_headers": {
+      "qty": "Qty",
+      "val": "Value",
+      "no": "No",
+      "date": "Date",
+      "name": "Name",
+      "addr": "Address",
+      "bin": "BIN",
+      "sd": "SD",
+      "vat": "VAT"
+    },
+    "footer": {
+      "special_note_title": "Special Notes:",
+      "notes": [
+        "All types of purchase information related to economic activities must be included in this form.",
+        "In cases where goods are purchased from an unregistered person, the full name, address, and National ID number of said person must be compulsorily mentioned in the relevant columns [(7), (8), and (9)].",
+        "Copies of the Bill of Entry or Invoice must be preserved as supporting documents for the purchase of raw materials."
+      ]
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_2": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Sales Account Book",
+      "rule": "[See Rule 40(1)(b) and Rule 41(a)]",
+      "m_name": "Mushak-6.2",
+      "sub_title": "Sales of Goods/Services"
+    },
+    "headers": {
+      "sl": "Serial No.",
+      "date": "Date",
+      "opening": "Opening Balance of Manufactured Goods",
+      "production": "Production",
+      "total": "Total Manufactured Goods/Services",
+      "buyer": "Buyer/Recipient Information",
+      "invoice": "Invoice Details",
+      "sales": "Description of Sold/Supplied Goods",
+      "closing": "Closing Balance of Goods",
+      "remarks": "Remarks"
+    },
+    "sub_headers": {
+      "qty": "Quantity (Unit)",
+      "val": "Value (Excl. all taxes)",
+      "no": "Number",
+      "sd": "Supplementary Duty (if any)",
+      "vat": "VAT",
+      "name": "Name",
+      "addr": "Address",
+      "bin": "Registration/Enlistment/National ID No.",
+      "date": "Date",
+      "item_desc": "Description",
+      "tax": "Taxable Value"
+    },
+    "footer": {
+      "note_title": "Special Notes:",
+      "notes": [
+        "In cases where goods are sold to an unregistered person, the full name, address, and National ID number of said person must be compulsorily mentioned in the relevant columns [(9), (10), and (11)]."
+      ]
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_2_1": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Purchase-Sales Account Book",
+      "rule": "[See Rule 40(1)(khkh) and Rule 41(a)]",
+      "m_name": "Mushak-6.2.1",
+      "sub_title": "Purchase & Sales of Goods"
+    },
+    "headers": {
+      "sl": "Serial No.",
+      "date": "Date",
+      "opening": "Opening Balance of Saleable Goods",
+      "purchase": "Purchase",
+      "total": "Total Goods",
+      "seller": "Seller Information",
+      "p_invoice": "Purchase Invoice/Bill of Entry Details",
+      "sales_desc": "Description of Sold/Supplied Goods",
+      "buyer": "Buyer Information",
+      "s_invoice": "Sales Invoice Details",
+      "closing": "Closing Balance of Goods",
+      "remarks": "Remarks"
+    },
+    "sub_headers": {
+      "qty": "Quantity (Unit)",
+      "val": "Value (Excl. all taxes)",
+      "name": "Name",
+      "addr": "Address",
+      "bin": "Reg/Enlistment/National ID No.",
+      "no": "Number",
+      "date": "Date",
+      "item_desc": "Description",
+      "tax": "Taxable Value",
+      "sd": "Supplementary Duty (if any)",
+      "vat": "VAT"
+    },
+    "footer": {
+      "note_title": "Special Notes:",
+      "notes": [
+        "In cases where goods are purchased from or sold to an unregistered person, the full name, address, and National ID number of said person must be compulsorily mentioned in the relevant columns [(9), (10), (11), (19), (20), and (21)]."
+      ]
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_3": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Tax Invoice",
+      "rule": "[See Rule 40(1)(c) and Rule 40(1)(f)]",
+      "m_name": "Mushak-6.3"
+    },
+    "info": {
+      "buyer_name": "Buyer Name",
+      "buyer_bin": "Buyer BIN",
+      "dest_addr": "Destination of Supply",
+      "inv_no": "Invoice Number",
+      "inv_date": "Issue Date",
+      "inv_time": "Issue Time"
+    },
+    "headers": {
+      "sl": "SL",
+      "desc": "Description of Goods/Services",
+      "unit": "Unit of Supply",
+      "qty": "Quantity",
+      "u_price": "Unit Price (BDT)",
+      "t_price": "Total Price (BDT)",
+      "sd_amount": "SD Amount (BDT)",
+      "vat_rate": "VAT Rate / Specific Tax",
+      "vat_amount": "VAT Amount (BDT)",
+      "total_incl_all": "Total Incl. All Taxes",
+      "grand_total": "Grand Total"
+    },
+    "footer": {
+      "note": "* In case of supplies subject to deduction at source, the form will be treated as a combined tax invoice and tax deduction at source certificate and it will be applicable for supplies subject to tax deduction at source.",
+      "auth_label": "Name of Authorized Person",
+      "designation_label": "Designation",
+      "signature_label": "Signature",
+      "seal_label": "Seal"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_4": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Chalanpatra of Contract-based Production",
+      "rule": "[See Rule 40, Sub-rule (1) (Clause Ghat)]",
+      "m_name": "Mushak-6.4"
+    },
+    "info": {
+      "registered_person": "Name of Registered Person",
+      "registered_person_bin": "BIN of Registered Person",
+      "chalan_address": "Address of Chalan Issue",
+      "buyer_name": "Name of Goods Recipient",
+      "buyer_bin": "BIN of Recipient",
+      "dest_addr": "Destination",
+      "inv_no": "Chalan Number",
+      "inv_date": "Issue Date",
+      "inv_time": "Issue Time"
+    },
+    "headers": {
+      "sl": "SL No.",
+      "desc": "Nature (Input or Produced Goods)",
+      "details": "Description of Goods",
+      "qty": "Quantity",
+      "remarks": "Remarks",
+      "total": "Total"
+    },
+    "footer": {
+      "note": "",
+      "auth_label": "Name of Authorized Person of the Institution",
+      "designation_label": "Designation",
+      "signature_label": "Signature",
+      "seal_label": "Seal"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_5": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Goods Transfer Chalan of Centrally Registered Institution",
+      "rule": "[See Rule 40, Sub-rule (1) (Clause Uma)]",
+      "m_name": "Mushak-6.5"
+    },
+    "info": {
+      "registered_person": "Name of Registered Person",
+      "registered_person_bin": "BIN of Registered Person",
+      "sender_info": "Name & Address of Sending Unit/Warehouse",
+      "receiver_info": "Name & Address of Receiving Unit/Warehouse",
+      "inv_no": "Chalan Number",
+      "inv_date": "Issue Date",
+      "inv_time": "Issue Time"
+    },
+    "headers": {
+      "sl": "SL",
+      "desc": "Description of Goods (including Brand Name)",
+      "qty": "Quantity",
+      "price_no_tax": "Value Excluding Tax",
+      "tax_amount": "Applicable Tax Amount",
+      "remarks": "Remarks"
+    },
+    "footer": {
+      "auth_label": "Name of Authorized Person",
+      "designation_label": "Designation",
+      "signature_label": "Signature",
+      "seal_label": "Seal"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_6": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Certificate of Tax Deduction at Source",
+      "rule": "[See Rule 40, Sub-rule (1) (Clause Chha)]",
+      "m_name": "Mushak-6.6"
+    },
+    "info": {
+      "withholding_entity": "Name of Withholding Entity",
+      "withholding_address": "Address of Withholding Entity",
+      "withholding_bin": "BIN of Withholding Entity",
+      "cert_no": "VDS Certificate No.",
+      "issue_date": "Issue Date",
+      "notes": "This is to certified that VAT has been deducted at source from the supplier having VAT deductitble at Source in accordance with section 49 of the Act. The VAT so deducted has been deposited in the government treasury by book transfer/treasury challan/increasing adjustment in the return. A copy has been attached.(If Applicable)"
+    },
+    "headers": {
+      "sl": "SL No.",
+      "supplier": "Supplier",
+      "name": "Name",
+      "bin": "BIN",
+      "invoice_info": "Concerned Tax Invoice",
+      "number": "Number",
+      "issueDate": "Issue Date",
+      "total_value": "Total Value Supply(BDT)",
+      "vat_amount": "Amount of VAT(BDT)",
+      "vds_amount": "Amount of VAT withheld at source(BDT)"
+    },
+    "footer": {
+      "auth_label": "Signature of Authorized Officer",
+      "name_label": "Name",
+      "signature_label": "Signature"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_7": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Credit Note",
+      "rule": "[See Clause(g) of Sub-Rule (1) of Rule 40]",
+      "m_name": "Mushak-6.7"
+    },
+    "info": {
+      "seller_title": "Return of Supplier",
+      "seller_name": "Name",
+      "seller_bin": "BIN",
+      "orig_inv_no": "Original Invoice Number",
+      "orig_inv_date": "Date of Issue",
+      "buyer_name": "Recipient of Supplies Returned",
+      "buyer_bin": "BIN",
+      "credit_note_no": "Credit Note No",
+      "inv_date": "Date of Issue",
+      "inv_time": "Time of Issue",
+      "recipient_title": "Recipient of Supplies returned",
+      "recipient_name": "Name",
+      "recipient_bin": "BIN"
+    },
+    "headers": {
+      "sl": "SL No.",
+      "details": "Details of supplies returned",
+      "unit": "Unit of Supply",
+      "qty": "Quantity",
+      "u_price": "Unit Price (TAKA)",
+      "t_price": "Total Price (TAKA)",
+      "reasons": "Reasons for return"
+    },
+    "summary": {
+      "total_val": "Total Value",
+      "deduction": "Subtraction of deduction",
+      "val_incl_vat": "Value inclusive of VAT",
+      "vat_amount": "Amount of VAT",
+      "sd_amount": "Amount of Supplementary Duty",
+      "total_tax": "Total Tax"
+    },
+    "footer": {
+      "auth_label": "Signature of Officer-in-charge",
+      "unitPrice": "1. Unit Price of production/Service inclusive of VAT/ Supplementary Duty tax.",
+      "deduction": "2. Amount of deduction, if any for refund.",
+      "totalTax": "3. Summation of VAT and supplementary Duty."
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_8": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Debit Note",
+      "rule": "[see Clauses (g) of Sub -Rule (1) of Rule 40]",
+      "m_name": "MUSHAK 6.8"
+    },
+    "info": {
+      "seller_title": "Return of Supplier",
+      "name": "Name",
+      "bin": "BIN",
+      "orig_inv_no": "Original Invoice Number",
+      "orig_inv_date": "Date of Issue",
+      "buyer_name": "Recipient of Supplies Returned",
+      "buyer_bin": "BIN",
+      "credit_note_no": "Credit Note No",
+      "inv_date": "Date of Issue",
+      "inv_time": "Time of Issue",
+      "recipient_title": "Recipient of Supplies returned",
+      "recipient_name": "Name",
+      "recipient_bin": "BIN"
+    },
+    "headers": {
+      "sl": "SL No",
+      "details": "Details of supplies returned",
+      "unit": "Unit of Supply",
+      "qty": "Quantity",
+      "u_price": "Unit Price (TAKA)",
+      "t_price": "Total Price (TAKA)",
+      "reasons": "Reasons for return"
+    },
+    "summary": {
+      "total_val_label": "Total Value",
+      "deduction": "Subtraction of deduction",
+      "val_incl_vat": "Value inclusive of VAT",
+      "vat_amount": "Amount of VAT",
+      "sd_amount": "Amount of Supplementary Duty",
+      "total_tax": "Total Tax"
+    },
+    "footer": {
+      "auth_label": "Signature of Office-in-charge",
+      "note1": "1. Unit Price of prduction/Service inclusive of VAT/ Supplementary Duty tax.",
+      "note2": "2. Amount of deduction, if any for refund.",
+      "note3": "3. Summation of VAT and supplementary Duty."
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_9": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Turnover Tax Invoice",
+      "rule": "[See Rule 41, Clause (Kha)]",
+      "m_name": "MUSHAK-6.9"
+    },
+    "info": {
+      "listed_person": "Name of Listed Person",
+      "listed_bin": "BIN of Listed Person",
+      "issue_address": "Address of Issue",
+      "buyer_name": "Name of Buyer",
+      "buyer_bin": "BIN of Buyer",
+      "inv_no": "Invoice Number",
+      "inv_date": "Date of Issue"
+    },
+    "headers": {
+      "sl": "SL No.",
+      "desc": "Description of Supply",
+      "unit": "Unit of Supply",
+      "qty": "Quantity",
+      "u_price": "Unit Price (TAKA)",
+      "t_price": "Total Price (TAKA)",
+      "grand_total": "Grand Total Value",
+      "turnover_tax": "Amount of Turnover Tax"
+    },
+    "notes": {
+      "note1": "1. 3% Turnover Tax is included in unit and total price.",
+      "note2": "2. Amount obtained by multiplying total value by 3/103."
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_6_10": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "Form 6.10",
+      "sub": "Information of Purchase-Sales invoices valued above BDT 2 (Two) Lac",
+      "rule": "[See Rule 42, Sub-rule (1)]"
+    },
+    "info": {
+      "name": "Name of Registered/Listed Person:",
+      "bin": "BIN:"
+    },
+    "sections": {
+      "part_a": "Part-A: Purchase Account Information",
+      "part_b": "Part-B: Sales Account Information"
+    },
+    "headers": {
+      "sl": "SL No.",
+      "inv_no": "Invoice No.",
+      "inv_date": "Issue Date",
+      "value": "Value",
+      "seller_name": "Seller Name",
+      "seller_address": "Seller Address",
+      "seller_id": "Seller BIN/ NID No.",
+      "buyer_name": "Buyer Name",
+      "buyer_address": "Buyer Address",
+      "buyer_id": "Buyer BIN/ NID No."
+    },
+    "notes": {
+      "special_note": "* In cases where goods/services are purchased from an unregistered person or sold to an unregistered person, the full name, address, and National ID number of said person must be compulsorily mentioned in the relevant columns [(7), (8), and (9)]."
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_10_1": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "MUSHAK-10.1",
+      "name": "Tax Refund Application for Diplomatic or International Organizations",
+      "rule": "[Rule 55, Sub-rule (1)]"
+    },
+    "sections": {
+      "part1": "Part-1: Identity of Applicant",
+      "part2": "Part-2: Refund Claim",
+      "part3": "Part-3: Details of Refund Claim",
+      "part4": "Part-4: Declaration"
+    },
+    "info": {
+      "org_name": "(1) Name of Institution",
+      "bin": "(2) Business Identification Number (if any)",
+      "applicant_name": "(3) Name of Applicant",
+      "designation": "(4) Designation of Applicant/Authorized Representative",
+      "id_no": "(5) Identity Number of Applicant/Authorized Representative",
+      "actual_vat": "(1) Actual Paid VAT & Supplementary Duty (Total of Part-3)",
+      "attachments": "(2) Attachments (Tick where applicable)",
+      "att_a": "VAT Invoice",
+      "att_b": "Bill of Entry",
+      "att_c": "Letter of Authorization",
+      "att_d": "Identity Card",
+      "copy_no": "No. of Copies"
+    },
+    "headers": {
+      "sl": "SL",
+      "inv_no": "VAT Invoice/Bill No.",
+      "date": "Date",
+      "supplier": "Supplier",
+      "bin": "Supplier BIN",
+      "desc": "Description",
+      "value": "Value (Tk.)",
+      "vat_sd": "Paid VAT & SD (Tk.)",
+      "table_total": "Total (Provide this info in Part-2 SL-1):"
+    },
+    "declaration": {
+      "text": "I declare that the information provided in this submission is complete, true, and correct.",
+      "name": "Name",
+      "designation": "Designation",
+      "date": "Date",
+      "mobile": "Mobile No.",
+      "email": "Email",
+      "signature": "Signature"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_18_1": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "MUSHAK-18.1",
+      "name": "Application for VAT Consultant License",
+      "rule": "[ See Rule 109, Sub-rule (1) ]"
+    },
+    "sections": {
+      "part1": "Part-1: General Information",
+      "part2": "Part-2: Applicant's Educational Qualification",
+      "part3": "Part-3: Applicant's Eligibility",
+      "part4": "Part-4: Necessary Documents for Application",
+      "part5": "Part-5: Declaration"
+    },
+    "info": {
+      "bin": "Applicant's Business Identification Number",
+      "tin": "Applicant's Taxpayer Identification Number",
+      "app_name": "Applicant's Name",
+      "dob": "Applicant's Date of Birth",
+      "nationality": "Applicant's Nationality",
+      "last_degree": "Last Degree Earned by Applicant",
+      "inst": "Educational Institution",
+      "eligible_note": "Please tick (✔) the applicable one from the information below. Avoid if not applicable."
+    },
+    "eligibility": {
+      "a": "(a) Whether employed under the Government or any local authority",
+      "b": "(b) Whether dismissed or removed from any job",
+      "c": "(c) Whether convicted of any criminal offense? If convicted, whether 5 (five) years have passed after serving the sentence (with details of reason, nature, and provider of sentence)?",
+      "d": "(d) Whether his/her license as VAT Consultant, VAT Agent, Clearing & Forwarding, Freight Forwarder, or Income Tax Consultant was previously canceled?"
+    },
+    "docs": {
+      "a": "(a) Certificate of SSC or equivalent exam for age determination",
+      "b": "(b) Passport size photograph",
+      "c": "(c) Copy of certificate of highest educational qualification",
+      "d": "(d) Copy of National Identity Card",
+      "e": "(e) Pay order number, date and bank of BDT 10 (ten) thousand as exam fee in favor of Director General, Customs, Excise & VAT Training Academy",
+      "f": "(f) Necessary documents in support of Part-3"
+    },
+    "declaration": {
+      "text": "I declare that the information provided in this application is complete, true, and correct in all respects.",
+      "name": "Name",
+      "designation": "Designation"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_18_2": {
+    "header": {
+      "applicantInfo": "Official Name, Logo, Address",
+      "formNumber": "Mushak-18.2"
+    },
+    "titles": {
+      "form": "Application for Obtaining Certified Copy of Documents",
+      "rule": "[Rule 115, Sub-rule (1) refer]"
+    },
+    "table": {
+      "sl": "SL",
+      "rows": {
+        "row1_label": "Applicant-",
+        "row1a": "a) Name",
+        "row1b": "b) Address",
+        "row1c": "c) BIN",
+        "row2": "Description of Required Documents",
+        "row3": "Quantity of Required Documents (Page Count)",
+        "row4": "Purpose for Which Documents Will Be Used",
+        "row5": "Prescribed Fee Amount for Obtaining Certified Copy, Challan Number and Date (Copy Attached)",
+        "row6": "Name, Address and Office of the Officer to Whom Application Has Been Made"
+      }
+    },
+    "declaration": {
+      "title": "7 | Declaration",
+      "text": "I declare that the information provided in this application is complete, true and accurate.",
+      "signature": "Signature",
+      "name": "Name",
+      "address": "Address"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_18_3": {
+    "header": {
+      "applicantInfo": "Official Name, Logo, Address",
+      "formNumber": "Mushak-18.3"
+    },
+    "titles": {
+      "form": "Application for Obtaining VAT Certificate",
+      "rule": "[Rule 116, Sub-rule (1) refer]"
+    },
+    "body": {
+      "date": "Date:",
+      "to": "To",
+      "designation": "Commissioner",
+      "department": "Customs, Excise and VAT Commissionerate,",
+      "subject": "Subject: Application for Obtaining VAT Certificate.",
+      "salutation": "Sir,",
+      "reason_intro": "I hereby state that I need a VAT certificate for the following reasons:",
+      "closing": "Therefore, I humbly request that a VAT certificate be issued in my favor."
+    },
+    "declaration": {
+      "title": "04 | Declaration",
+      "text": "I declare that the information provided in this application is complete, true and accurate.",
+      "name": "Name",
+      "address": "Address",
+      "bin": "BIN",
+      "nameValue": "John Doe Trading Co.",
+      "addressValue": "123 Commerce Street, Dhaka-1000",
+      "binValue": "000123456-0101"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  },
+  "mushak_2_1": {
+    "titles": {
+      "gov": "Government of the People's Republic of Bangladesh",
+      "nbr": "National Board of Revenue",
+      "form": "MUSHAK-2.1",
+      "name": "Application for VAT Registration and Turnover Tax Enlistment",
+      "rule": "[ See Rule 4, Sub-rule (1) & Rule 5, Sub-rule (1) ]"
+    },
+    "sections": {
+      "part1": "1. Taxpayer Identification Number (e-TIN)",
+      "part2": "2. Name of the Person Eligible for Registration/Enlistment",
+      "part3": "3. Address for Registration/Enlistment",
+      "part4": "4. Address of Branch Units",
+      "part5": "5. Bank Account Information",
+      "part6": "6. Annual Turnover Amount",
+      "part7": "7. Nature of Registration (Tick [√] where applicable)",
+      "part8": "8. Are you a Withholding Entity? (Tick [√] where applicable)",
+      "part9": "9. Nature of Registered/Enlisted Person",
+      "part10": "10. Liability for Other Taxes",
+      "part11": "11. Effective Date of Registration/Enlistment",
+      "part12": "12. Nature of Application",
+      "part13": "13. Type of Application",
+      "part14": "14. Director/Partner/Proprietor Information",
+      "part15": "15. Nature of Business Activity",
+      "part16": "16. Nature of Economic Activity",
+      "part17": "17. Declaration"
+    },
+    "address_labels": {
+      "address": "Address",
+      "fill_any_one": "Fill any one",
+      "town_address": "Town address",
+      "village_address": "Village address",
+      "holding": "Holding No",
+      "mohalla": "Para/Mohalla",
+      "road": "Road No/Name",
+      "village": "Village",
+      "area": "Block/Area",
+      "thana": "Thana",
+      "district": "District",
+      "upazila": "Upazila",
+      "post_code": "Postal Code",
+      "mouza": "Mouza Name",
+      "mobile": "Mobile",
+      "email": "Email",
+      "web": "Website",
+      "phone": "Phone",
+      "fax": "Fax"
+    },
+    "bank_headers": {
+      "sl": "SL",
+      "acc_name": "Account Name",
+      "acc_no": "Account Number",
+      "bank_name": "Bank Name",
+      "branch": "Branch",
+      "amount": "Amount",
+      "inWord": "In Word"
+    },
+    "branch_labels": {
+      "sl": "Serial",
+      "addr_header": "Mouza with Address",
+      "contact_header": "Mobile/Phone/Email",
+      "address": "Address",
+      "mouza": "Mouza",
+      "mobile": "Mobile",
+      "phone": "Phone",
+      "email": "Email",
+      "note": "(Use additional paper if necessary)"
+    },
+    "reg_labels": {
+      "vat_reg": "Registration for VAT",
+      "tt_enlist": "Turnover Tax Enlistment",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "nature": {
+      "natural": "Natural Person",
+      "proprietor": "Proprietorship",
+      "partnership": "Partnership",
+      "intl_org": "International Organization",
+      "pvt_ltd": "Private Limited Company",
+      "pub_ltd": "Public Limited Company",
+      "foreign": "Branch of Foreign Company",
+      "diplomat": "Diplomat",
+      "others": "Others (Specify)"
+    },
+    "withholding": {
+      "yes": "Yes",
+      "no": "No",
+      "govt": "Government Entity",
+      "ngo": "NGO",
+      "pub_ltd": "Public Limited Company",
+      "bank": "Bank, Insurance or Financial Inst.",
+      "edu": "Post-secondary Education Inst.",
+      "ltu": "LTU-VAT Registered Entity"
+    },
+    "other_taxes": {
+      "sd": "Supplementary Duty (SD)",
+      "excise": "Excise Duty",
+      "surcharge": "Surcharge"
+    },
+    "app_nature": {
+      "mandatory": "Mandatory",
+      "voluntary": "Voluntary",
+      "suo_moto": "Suo-moto by Commissioner"
+    },
+    "app_type": {
+      "sl": "SL.",
+      "old_bin": "Old/Existing BIN",
+      "extra_paper": "(Use extra paper if necessary)",
+      "new": "(a) Application for new registration or enlistment",
+      "re_reg": "(b) Application for re-registration or re-enlistment",
+      "re_reg_bin": "In case of re-registration or re-enlistment, write the old/existing 10 or 11 digit BIN"
+    },
+    "directors": {
+      "sl": "SL.",
+      "name": "Name",
+      "designation": "Designation",
+      "share": "Share (%)",
+      "id_info": "Identification Info",
+      "id_type": "ID Type",
+      "nid_tin": "NID/Passport",
+      "nid": "NID No.",
+      "passport": "Passport No.",
+      "issue_country": "Issuing Country",
+      "extra_paper": "(Use extra paper if necessary)"
+    },
+    "biz_nature": {
+      "importer": "Importer",
+      "service": "Service Provider",
+      "exporter": "Exporter",
+      "supplier_mfg": "Supplier (Manufacturer)",
+      "mineral": "Mineral",
+      "supplier_comm": "Supplier (Commercial)",
+      "agri_fish": "Agriculture/Fisheries",
+      "others": "Others (Specify below)"
+    },
+    "eco_nature": {
+      "part16_ka": "(a) Tick [√] where applicable",
+      "part16_kha": "(b) Describe your economic activity in as much detail as possible.",
+      "part16_kha_sub": "e.g., describe as \"Telecommunication service provider\", \"MS product manufacturer\", \"Stock broker\" etc. Avoid general descriptions like \"Shopkeeper\", \"Manufacturer\", \"Service provider\", \"Consultant\" etc.",
+      "retail": "Retail",
+      "wholesale": "Wholesale",
+      "mfg": "Manufacturer",
+      "construction": "Construction",
+      "seasonal": "Seasonal Business",
+      "service": "Service Provider",
+      "mineral": "Mineral",
+      "agri_fish": "Agriculture/Fisheries",
+      "others": "Others (Specify below)"
+    },
+    "signatory_type": {
+      "signatory_header": "Signatory of this application: (Tick [√] where applicable)",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "id_info": "Identification Info:",
+      "passport": "Passport",
+      "or": "OR",
+      "nid": "National ID (NID)",
+      "number": "Number:",
+      "issue_country": "Issuing Country:",
+      "issue_date": "Issue Date:",
+      "expiry_date": "Expiry Date:",
+      "declaration_text": "I declare that the information provided in this application is complete, true and correct in all respects.",
+      "date": "Date:",
+      "signature": "Signature",
+      "owner": "(a) An Owner",
+      "director": "(b) A Director of the Company",
+      "partner": "(c) A Partner",
+      "officer": "(d) An Officer of a non-profit organization",
+      "others": "(e) Others (Specify)"
+    },
+    "developer": {
+      "prefix": "developed by: ",
+      "name": "SkyTech Global Ltd."
+    }
+  }
+}
