@@ -8,6 +8,11 @@ import { provideHttpClient, withInterceptors, withJsonpSupport } from '@angular/
 import { provideToastr } from 'ngx-toastr';
 import { errorInterceptor } from './core/auth/Interceptor/error.interceptor';
 import { httpInterceptor } from './core/auth/Interceptor/http.interceptor';
+import { provideEffects } from '@ngrx/effects';
+import { provideStore, provideState } from '@ngrx/store';
+import { provideStoreDevtools } from '@ngrx/store-devtools';
+import { PostEffects } from './feature/components/dashboard/posts/store/post.effects';
+import { postFeature } from './feature/components/dashboard/posts/store/post.reducer';
 
 registerLocaleData(en);
 
@@ -23,5 +28,10 @@ export const appConfig: ApplicationConfig = {
       positionClass: 'toast-top-right',
       preventDuplicates: true,
     }),
+        provideStore(),
+    provideState(postFeature),
+    provideEffects([PostEffects]),
+    provideStoreDevtools({ maxAge: 25 })
+    
   ],
 };

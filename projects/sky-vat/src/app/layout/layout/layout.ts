@@ -13,13 +13,14 @@ import { Base } from '../../shared/components/base/base';
   styleUrl: './layout.scss',
 })
 export class Layout extends Base implements OnInit {
-  pageName = '';
+  public pageName = '';
   constructor() {
     super();
   }
   ngOnInit(): void {
     this.activeModule.currentPageName.subscribe((pageName) => {
       this.pageName = pageName;
+      console.log('Current page name:', this.pageName);
     });
   }
 }

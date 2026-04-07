@@ -1,0 +1,63 @@
+<h2 class="mb-3 text-danger">Posts</h2>
+
+<div class="d-flex gap-2 mb-3">
+  <input
+    [(ngModel)]="search"
+    placeholder="Search title or body"
+    class="form-control w-auto"
+  />
+  <button class="btn btn-primary" (click)="onSearch()">Search</button>
+  <button class="btn btn-success" (click)="createSamplePost()">Create Post</button>
+</div>
+
+<div *ngIf="loading$ | async" class="alert alert-info py-2">
+  Loading...
+</div>
+
+<div *ngIf="submitting$ | async" class="alert alert-warning py-2">
+  Saving...
+</div>
+
+<div *ngIf="error$ | async as error" class="alert alert-danger py-2">
+  {{ error }}
+</div>
+
+<ul class="list-group mb-4">
+  <li
+    *ngFor="let post of (posts$ | async)"
+    class="list-group-item mb-2 border rounded"
+  >
+    <h4 class="mb-2 text-dark">{{ post.title }}</h4>
+    <p class="mb-3 text-muted">{{ post.body }}</p>
+
+    <div class="d-flex gap-2 flex-wrap">
+      <button class="btn btn-outline-primary btn-sm" (click)="selectPost(post)">
+        Select
+      </button>
+      <button class="btn btn-outline-warning btn-sm" (click)="updateSamplePost(post)">
+        Update
+      </button>
+      <button class="btn btn-outline-danger btn-sm" (click)="deleteCurrentPost(post.id)">
+        Delete
+      </button>
+    </div>
+  </li>
+</ul>
+
+<div *ngIf="selectedPost$ | async as selectedPost" class="card mb-4">
+  <div class="card-body">
+    <hr />
+    <h3 class="mb-3 text-success">Selected Post</h3>
+    <p><b>ID:</b> {{ selectedPost.id }}</p>
+    <p><b>Title:</b> {{ selectedPost.title }}</p>
+    <p><b>Body:</b> {{ selectedPost.body }}</p>
+  </div>
+</div>
+
+<hr />
+
+<div class="d-flex gap-2">
+  <button class="btn btn-secondary btn-sm" (click)="goToPage(1)">1</button>
+  <button class="btn btn-secondary btn-sm" (click)="goToPage(2)">2</button>
+  <button class="btn btn-secondary btn-sm" (click)="goToPage(3)">3</button>
+</div>

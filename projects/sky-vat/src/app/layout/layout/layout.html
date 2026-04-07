@@ -6,7 +6,9 @@
         </div>
     </nz-sider>
     <nz-layout>
-        <nz-header>{{pageName}}</nz-header>
+        <nz-header class="d-block">
+            <h1 class="text-danger" >pageName  {{ pageName | json}}</h1>
+        </nz-header>
         <nz-content>
             <router-outlet></router-outlet>
         </nz-content>
