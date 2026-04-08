@@ -1,4 +1,4 @@
-import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
+import { ApplicationConfig, isDevMode, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 import { en_US, provideNzI18n } from 'ng-zorro-antd/i18n';
@@ -13,6 +13,8 @@ import { provideStore, provideState } from '@ngrx/store';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
 import { PostEffects } from './feature/components/dashboard/posts/store/post.effects';
 import { postFeature } from './feature/components/dashboard/posts/store/post.reducer';
+import { UserEffects } from './feature/components/users/user.effect';
+import { userFeature } from './feature/components/users/user.feature';
 
 registerLocaleData(en);
 
@@ -28,10 +30,16 @@ export const appConfig: ApplicationConfig = {
       positionClass: 'toast-top-right',
       preventDuplicates: true,
     }),
-        provideStore(),
+    provideStore(),
     provideState(postFeature),
-    provideEffects([PostEffects]),
-    provideStoreDevtools({ maxAge: 25 })
-    
+    provideState(userFeature),
+    provideEffects([PostEffects, UserEffects]),
+     provideStoreDevtools({
+      maxAge: 25,
+      logOnly: !isDevMode(),
+      autoPause: true,
+      trace: false,
+      connectInZone: true
+    })
   ],
 };

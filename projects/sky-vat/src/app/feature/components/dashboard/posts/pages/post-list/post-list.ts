@@ -5,6 +5,7 @@ import * as PostActions from '../../store/post.actions';
 import * as PostSelectors from '../../store/post.selectors';
 import { FormsModule } from '@angular/forms';
 import { Post } from '../../models/post.model';
+import { Base } from '../../../../../../shared/components/base/base';
 
 @Component({
   selector: 'app-post-list',
@@ -12,7 +13,7 @@ import { Post } from '../../models/post.model';
   templateUrl: './post-list.html',
   styleUrl: './post-list.scss',
 })
-export class PostList   implements OnInit {
+export class PostList extends Base   implements OnInit {
   private store = inject(Store);
 
   posts$ = this.store.select(PostSelectors.selectAllPosts);
@@ -26,6 +27,11 @@ export class PostList   implements OnInit {
   total$ = this.store.select(PostSelectors.selectApiTotal);
 
   search = '';
+
+  constructor() {
+    super();
+    this.setPageName('Post List');
+  }
 
   ngOnInit(): void {
     this.store.dispatch(PostActions.loadPosts({ page: 1, limit: 10, search: '' }));

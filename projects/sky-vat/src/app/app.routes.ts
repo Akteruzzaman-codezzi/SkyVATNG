@@ -29,6 +29,11 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./feature/components/dashboard/posts/pages/post-list/post-list').then((m) => m.PostList),
       },
+      {
+        path: 'users',
+        loadComponent: () =>
+          import('./feature/components/users/user/user').then((m) => m.User),
+      },
     ],
   },
   {

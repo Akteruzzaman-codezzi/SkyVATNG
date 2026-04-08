@@ -2,12 +2,18 @@
     <nz-sider>
         <div class="card">
             <div class="card-header"> Card Header</div>
-            <div class="card-body" > Card Body</div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item" routerLink="/client/posts" >Post</li>
+                    <li class="list-group-item" routerLink="/client/users" >User</li>
+                    <li class="list-group-item" routerLink="/client/settings" >Settings</li>
+                </ul>
+            </div>
         </div>
     </nz-sider>
     <nz-layout>
         <nz-header class="d-block">
-            <h1 class="text-danger" >pageName  {{ pageName | json}}</h1>
+            <h4 class="text-danger">pageName</h4>
         </nz-header>
         <nz-content>
             <router-outlet></router-outlet>
